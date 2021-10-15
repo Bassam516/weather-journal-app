@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url("../img/weather.jpeg") no-repeat center center fixed;
+    font-family: cursive;
+}
+/*start form section*/
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+form input,
+form textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ffda5f;
+    outline: none;
+    background-color: #0000001a;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size:17px;
+    transition: all .3s ease-in-out;
+}
+form input:focus,
+form textarea:focus{
+    box-shadow:0px 0 4px 1px #ffda5f;
+}
+
+::placeholder {
+    color: #000;
+    font-family: sans-serifs;
+}
+/*end form section*/
+/*start entry holder section*/
+#entryHolder {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #e6e6e6f5;
+    border-radius: 0 20px;
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+    display:none;
+}
+#entryHolder div{
+    margin-bottom: 15px;
+}
+/*end entry holder section*/
