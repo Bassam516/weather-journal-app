@@ -1,6 +1,7 @@
-Weather journal app
 
-This project relies on web API (OpenWeatherMap).
+# Weather journal app
+
+## This project relies on web API (OpenWeatherMap).
 
 The user gives
 1- zip code of the country he wants to know the weather
